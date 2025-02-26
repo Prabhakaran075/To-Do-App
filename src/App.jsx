@@ -27,7 +27,7 @@ const App = () => {
   // Save the current list to localStorage
   const saveTodos = () => {
     localStorage.setItem("todoList", JSON.stringify(todos));
-    alert("Todos saved successfully!");
+    alert("Task Completed!");
   };
 
   return (
